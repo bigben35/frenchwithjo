@@ -1,5 +1,5 @@
 const DISCOVERY_CONFIG = {
-  leadEndpoint: "/api/discovery",
+  leadEndpoint: "https://josse35.app.n8n.cloud/webhook-test/frenchwithjo-lead",
   paymentUrl: "", // Add your Stripe Payment Link before launch.
   bookingUrl: ""  // Add your Calendly Discovery URL before launch.
 };
