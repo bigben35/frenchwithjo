@@ -87,16 +87,11 @@ header{
   font-weight:800;
 }
 
-.mark{
-  width:34px;
-  height:34px;
-  border-radius:50%;
-  display:grid;
-  place-items:center;
-  background:var(--green);
-  color:#fff;
-  font-family:Georgia,serif;
-  font-size:1.25rem;
+.brand-logo {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  flex-shrink: 0;
 }
 
 .links{
@@ -1380,10 +1375,13 @@ footer{
     font-size:.98rem;
   }
 
-  .mark{
-    width:28px;
-    height:28px;
-    font-size:1rem;
+  .brand > span {
+    display: none;
+  }
+
+  .brand-logo {
+    width: 44px;
+    height: 44px;
   }
 
   .header-cta{
