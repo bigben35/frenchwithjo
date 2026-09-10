@@ -821,6 +821,11 @@ h3{
   background:var(--blue-soft);
 }
 
+.section-cta {
+  margin-top: 32px;
+  text-align: center;
+}
+
 /* Kept only as fallback if placeholder HTML is temporarily restored */
 .teacher-photo-placeholder{
   background:
@@ -1373,10 +1378,6 @@ footer{
   .brand{
     gap:7px;
     font-size:.98rem;
-  }
-
-  .brand > span {
-    display: none;
   }
 
   .brand-logo {
