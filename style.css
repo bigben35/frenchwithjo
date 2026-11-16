@@ -954,13 +954,24 @@ h3{
 }
 
 .cta-right{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  gap:12px;
   text-align:center;
+}
+
+.cta-right .btn{
+  width:100%;
+  max-width:340px;
 }
 
 .cta-right small{
   display:block;
-  margin-top:9px;
-  color:rgba(255,255,255,.55);
+  margin-top:0;
+  color:rgba(255,255,255,.75);
+  font-size:.875rem;
 }
 
 .cta-small{
@@ -968,120 +979,6 @@ h3{
   font-size:1rem!important;
 }
 
-.discovery-form{
-  padding:28px;
-  border-radius:24px;
-  background:#fff;
-  color:var(--ink);
-  box-shadow:0 18px 55px rgba(15,32,28,.16);
-  transition:transform .25s ease,box-shadow .25s ease;
-}
-
-.discovery-form:hover{
-  transform:translateY(-4px);
-  box-shadow:0 24px 65px rgba(20,50,77,.22);
-}
-
-.discovery-form h3{
-  margin-bottom:5px;
-  font-size:1.75rem;
-}
-
-.discovery-form>p{
-  margin-top:0;
-  color:var(--muted);
-  font-size:1rem;
-}
-
-.form-grid{
-  display:grid;
-  grid-template-columns:1fr 1fr;
-  gap:14px;
-}
-
-.field{
-  display:grid;
-  gap:6px;
-}
-
-.field.full-field{
-  grid-column:1/-1;
-}
-
-.field label{
-  font-size:.9375rem;
-  font-weight:800;
-}
-
-.field input,
-.field select,
-.field textarea{
-  width:100%;
-  padding:13px 14px;
-  border:1px solid var(--line);
-  border-radius:13px;
-  outline:none;
-  background:#fff;
-  color:var(--ink);
-  font:1.0625rem/1.4 Arial,sans-serif;
-}
-
-.field textarea{
-  min-height:92px;
-  resize:vertical;
-}
-
-.field input:focus,
-.field select:focus,
-.field textarea:focus{
-  border-color:var(--green);
-  box-shadow:0 0 0 3px rgba(47,110,165,.12);
-}
-
-.form-note{
-  margin:12px 0 0!important;
-  color:var(--muted)!important;
-  font-size:.6875rem!important;
-}
-
-.form-note a{
-  text-decoration:underline;
-  text-underline-offset:2px;
-}
-
-.form-status{
-  min-height:22px;
-  margin:10px 0 0;
-  font-size:.8125rem;
-  font-weight:700;
-}
-
-.discovery-form .btn{
-  width:100%;
-  margin-top:14px;
-}
-
-.discovery-form .primary{
-  background:var(--green);
-  color:#fff;
-}
-
-.discovery-form .primary:hover{
-  background:var(--green2);
-}
-
-/* Honeypot anti-spam */
-.hp-field{
-  position:absolute!important;
-  width:1px!important;
-  height:1px!important;
-  margin:-1px!important;
-  padding:0!important;
-  overflow:hidden!important;
-  clip:rect(0,0,0,0)!important;
-  border:0!important;
-  white-space:nowrap!important;
-}
 
 /* ---------- Footer ---------- */
 
@@ -1311,13 +1208,6 @@ footer{
     width:100%;
   }
 
-  .form-grid{
-    grid-template-columns:1fr;
-  }
-
-  .field.full-field{
-    grid-column:auto;
-  }
 
   .grid6,
   .pricing,
