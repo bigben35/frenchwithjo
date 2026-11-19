@@ -494,6 +494,19 @@ h3{
   text-align:center;
 }
 
+#speaking-challenges {
+  padding-bottom: 0px;
+}
+
+.challenges-conclusion {
+  width: 100%;
+  max-width: none;
+  margin: 24px 0 0;
+  color: var(--muted);
+  font-size: 1.25rem;
+  line-height: 1.7;
+}
+
 /* ---------- Method ---------- */
 
 .method{
