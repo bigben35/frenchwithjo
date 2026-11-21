@@ -195,12 +195,7 @@ footer a:hover { opacity: 1; }
 <h1>Cookies & Trackers Policy</h1>
 <p class="updated">Last updated: November 2026</p>
 
-<div class="success-box">
-  <p>
-    In the current website configuration, frenchwithjo.com does not intentionally use advertising,
-    behavioural profiling or audience-measurement trackers that require prior consent.
-  </p>
-</div>
+<div class="info-box"><p>We use optional Google Analytics 4 audience-measurement cookies only if you accept them. You can refuse or change your choice at any time.</p></div>
 
 <h2>1. What are cookies and trackers?</h2>
 <p>
@@ -208,40 +203,19 @@ footer a:hover { opacity: 1; }
   Similar technologies can also store or access information on a device and are commonly referred to as trackers.
 </p>
 
-<h2>2. Current frenchwithjo.com configuration</h2>
+<h2>2. Cookies and services on this website</h2>
 <table>
-  <tr><th>Service</th><th>Use</th><th>Consent status</th></tr>
-  <tr>
-    <td><strong>FrenchWithJo website</strong></td>
-    <td>No advertising pixel or audience-measurement tool is intentionally included in the current website code.</td>
-    <td>No consent banner is currently required for such trackers because they are not in use.</td>
-  </tr>
-  <tr>
-    <td><strong>Cloudflare</strong></td>
-    <td>Website delivery, HTTPS, infrastructure and security. Depending on enabled security features, strictly necessary technical cookies or signals may be used.</td>
-    <td>Prior consent is not required where a tracker is strictly necessary for the requested service or security purpose.</td>
-  </tr>
-  <tr>
-    <td><strong>Stripe</strong></td>
-    <td>The user may be redirected to a Stripe-hosted payment page when payment is enabled.</td>
-    <td>Cookies on the Stripe-hosted page are governed by Stripe's own configuration and policy.</td>
-  </tr>
-  <tr>
-    <td><strong>Calendly</strong></td>
-    <td>Visitors are redirected to Calendly to schedule their free 30-minute Discovery Call.</td>
-    <td>Cookies on the Calendly-hosted page are governed by Calendly's own configuration and policy.</td>
-  </tr>
+<tr><th>Service</th><th>Purpose</th><th>Consent</th></tr>
+<tr><td><strong>Google Analytics 4</strong></td><td>Measure website visits, traffic sources, pages viewed and selected interactions. Google may set analytics cookies such as _ga and _ga_* when enabled.</td><td>Optional. Loaded only after you click Accept.</td></tr>
+<tr><td><strong>Cloudflare</strong></td><td>Hosting, HTTPS and security. Necessary technical cookies may be used depending on security configuration.</td><td>Where strictly necessary, prior consent is not required.</td></tr>
+<tr><td><strong>Calendly</strong></td><td>External website used to book a Discovery Call.</td><td>Calendly manages cookies on its own site.</td></tr>
+<tr><td><strong>Stripe</strong></td><td>External payment service if enabled.</td><td>Stripe manages cookies on its own hosted pages.</td></tr>
 </table>
-
-<h2>3. Why there is currently no cookie-consent banner</h2>
-<p>
-  A consent banner is useful when a website uses optional trackers that require consent.
-  The current FrenchWithJo site does not intentionally load analytics, advertising or profiling scripts on frenchwithjo.com itself.
-</p>
-<p>
-  If this changes — for example if Google Analytics, Meta Pixel, advertising tools or embedded third-party widgets are added —
-  the website's consent mechanism and this policy must be reviewed before those trackers are activated.
-</p>
+<h2>3. Your choices</h2>
+<p>On your first visit, you can accept or refuse optional analytics cookies. Refusing does not prevent you from using our website. Your choice is saved in your browser's local storage so we do not ask on every page view.</p>
+<p>You can reopen the choices at any time using the button below. If you withdraw consent, we stop loading analytics on subsequent page views. You may also delete existing analytics cookies using your browser settings.</p>
+<p><button type="button" data-cookie-settings style="cursor:pointer;padding:10px 16px;border:1px solid #2f76ad;border-radius:8px;background:white;color:#244b68;font-weight:bold;">Change cookie preferences</button></p>
+<p>Google Analytics 4 is provided by Google. For more information about Google's handling of data, see <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google's Privacy Policy</a>. Analytics cookie retention varies by cookie and configuration; for example, Google's default _ga cookie duration is typically up to two years unless settings or browser restrictions shorten it.</p>
 
 <h2>4. Discovery Call booking</h2>
 <p>
@@ -280,5 +254,6 @@ footer a:hover { opacity: 1; }
   <a href="cookies.html">Cookies</a>
 </footer>
 
+<script src="/analytics.js" defer></script>
 </body>
 </html>
